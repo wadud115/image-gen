@@ -11,9 +11,9 @@ const TopGenaration = async() => {
     console.log(topPhotos)
     return (
         <div>
-            <h1 className='font-bold text-2xl mt-5'>Top Genaration</h1>
+            <h1 className='font-bold text-2xl my-5'>Top Genaration</h1>
 
-            <div className='grid grid-cols-3 gap-5'>
+            <div className='grid grid-cols-4 gap-3'>
                 {topPhotos.map( photo => <PhotoCard key={photo.id}  photo={photo}></PhotoCard>  )}
             </div>
 
