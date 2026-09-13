@@ -2,7 +2,7 @@ import React from 'react';
 import PhotoCard from './PhotoCard';
 
 const TopGenaration = async() => {
-    const res = await fetch('http://localhost:3000//data.json')
+    const res = await fetch('https://image-gen-five-opal.vercel.app/data.json')
     const photos = await res.json()
     console.log(photos)
 
