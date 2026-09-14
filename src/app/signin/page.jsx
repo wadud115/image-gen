@@ -13,7 +13,11 @@ import {
   TextField,
 } from "@heroui/react";
 
+import { BsGoogle } from "react-icons/bs";
+
 export default function SignIn() {
+
+
   const onSubmit = async (e) => {
     e.preventDefault();
 
@@ -32,6 +36,16 @@ export default function SignIn() {
     })
 
     console.log({data , error})
+
+
+   
+    }
+
+
+     const handleGoogleSignIn = async ()=>{
+        await authClient.signIn.social({
+            provider : "google"
+        })
   };
 
   return (
@@ -96,6 +110,11 @@ export default function SignIn() {
           </Button>
         </div>
       </Form>
+      <p className="text-center font-semibold">or</p>
+
+      <Button onClick={handleGoogleSignIn} variant="outline" className={'w-full'}>
+        <BsGoogle></BsGoogle>Sign in with google
+      </Button>
     </Card>
   );
 }
