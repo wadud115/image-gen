@@ -10,7 +10,7 @@ const PhotoDetailsPage = async({params}) => {
 
     // console.log(photos)
 
-    const photo = photos.find(p => p.id = id)
+    const photo = photos.find(p => p.id == id)
 
     console.log(photo)
 
