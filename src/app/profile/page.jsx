@@ -3,6 +3,7 @@ import { Avatar} from "@heroui/react";
 import { authClient } from '@/lib/auth-client';
 import { Card } from '@heroui/react';
 import React from 'react';
+import { UpdateUserModal } from "@/components/updataUserModal";
 
 const ProfilePage = () => {
 
@@ -24,6 +25,8 @@ const ProfilePage = () => {
 
                       <h2 className="font-bold">{user?.name}</h2>
                       <p className="text-muted">{user?.email}</p>
+
+                      <UpdateUserModal></UpdateUserModal>
             </Card>
             
         </div>
