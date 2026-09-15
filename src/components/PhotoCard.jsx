@@ -10,6 +10,7 @@ const PhotoCard = ({photo}) => {
        <Card className="border rounded-xl">
         <div className="relative w-full aspect-square">
             <Image src={photo.imageUrl}
+            alt="janina"
             fill
             sizes="(max-width: 768px) 100vw, (max-width : 1200px) 55vw, 33vw"
             className="rounded-xl object-cover"
