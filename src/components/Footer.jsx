@@ -74,7 +74,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
+        
           <div>
             <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
               Company
