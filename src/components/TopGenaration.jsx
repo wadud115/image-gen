@@ -13,7 +13,7 @@ const TopGenaration = async() => {
         <div>
             <h1 className='font-bold text-2xl my-5'>Top Genaration</h1>
 
-            <div className='grid grid-cols-4 gap-3'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
                 {topPhotos.map( photo => <PhotoCard key={photo.id}  photo={photo}></PhotoCard>  )}
             </div>
 

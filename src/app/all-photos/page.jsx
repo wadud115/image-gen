@@ -27,7 +27,7 @@ const AllPhotoPage =  async({searchParams}) => {
 
             <Category></Category>
 
-            <div className='grid grid-cols-4 gap-3'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
                 {filterCategory.map(photo => <PhotoCard key={photo.id} photo={photo}></PhotoCard>)}
             </div>
         </div>
