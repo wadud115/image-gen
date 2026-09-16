@@ -284,10 +284,10 @@ Some possible future improvements include:
 ## 🌐 Live Demo
 
 **Live Website:**
-`https://image-gen-five-opal.vercel.app/`
+https://image-gen-five-opal.vercel.app
 
 **GitHub Repository:**
-`https://github.com/wadud115/image-gen.git`
+https://github.com/wadud115/image-gen.git
 
 
 
