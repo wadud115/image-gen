@@ -287,7 +287,7 @@ Some possible future improvements include:
 `https://image-gen-five-opal.vercel.app/`
 
 **GitHub Repository:**
-`https://github.com/your-username/pixgen`
+`https://github.com/wadud115/image-gen.git`
 
 
 
